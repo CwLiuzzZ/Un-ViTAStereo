@@ -2,12 +2,12 @@
 This is the official repo for our work 'Integrating Disparity Confidence Estimation into Relative Depth Priors-Guided Unsupervised Stereo Matching'.
 
 ## Setup
-We built and ran the repo with CUDA 11.8, Python 3.9.0, and Pytorch 2.1.0. For using this repo, please follow the instructions below:
+We built and ran the repo with CUDA 12.1, Python 3.10.12, and Pytorch 2.4.0. For using this repo, please follow the instructions below:
 ```
 pip install -r requirements.txt
 ```
 
-If you have any problem with installing xFormers package, please follow the guidance in [DINOv2](https://github.com/facebookresearch/dinov2).
+If you have any problem with installing mmsegmentation, xFormers packages, please follow the guidance in [DINOv2](https://github.com/facebookresearch/dinov2).
 
 ## Pre-trained models
 
@@ -81,7 +81,7 @@ Our folder structure is as follows:
         │   └── monka
 ```
 ## Training & Evaluation
-The inferences of depth priors generating, model training and model evaluating are integrated in the  `toolkit/depth_main.py`. 
+The inferences of depth priors generating, model training and model evaluating are integrated in the  `toolkit/depth_main.py`
 
 To use these inferences, you should be under the '''toolkit''' directory, and use the following instruction:
 

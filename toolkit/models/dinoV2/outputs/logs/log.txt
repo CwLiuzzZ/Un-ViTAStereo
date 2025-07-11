@@ -1,0 +1,1 @@
+I20250711 09:04:23 15033 dinov2 utils.py:70] Pretrained weights found at ../toolkit/models/dinoV2/dinov2_vitl14_pretrain.pth and loaded with msg: <All keys matched successfully>

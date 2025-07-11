@@ -19,6 +19,7 @@
 *.jpeg
 *.pfm
 *.pfm
+/datasets/KITTI/*
 /toolkit/generate_images/*
 /toolkit/torch_lightning/ckpts/*
 /toolkit/lightning_logs/*

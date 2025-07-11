@@ -103,11 +103,11 @@ def evaluate():
 
 if __name__ == '__main__':   
     
-    hparams = depth_generate()
-    inference(hparams)
-    
     hparams = evaluate()
     inference(hparams)
+    
+    # hparams = depth_generate()
+    # inference(hparams)
     
     # hparams = train()
     # inference(hparams)
